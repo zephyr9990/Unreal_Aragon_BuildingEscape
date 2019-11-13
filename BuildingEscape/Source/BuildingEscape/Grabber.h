@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Grabber.generated.h"
 
 
@@ -27,4 +28,5 @@ public:
 private:
 	float Reach = 100.0f;
 
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 };
