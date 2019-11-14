@@ -135,7 +135,7 @@ FVector UGrabber::GetReachLineEnd()
 	return PlayerViewPointLocation + PlayerViewPointRotation.Vector() * Reach;
 }
 
-void UGrabber::DrawLine()
+void UGrabber::DrawLine() 
 {
 	/// Draw a red trace in the world to visualize
 	DrawDebugLine(
